@@ -1,0 +1,4 @@
+{"type":"user","message":{"role":"user","content":"example"}}
+{"type":"ai-title","aiTitle":"Erster Titel","sessionId":"s1"}
+not json
+{"type":"ai-title","aiTitle":"Video-Kreation mit Google Flow","sessionId":"s1"}

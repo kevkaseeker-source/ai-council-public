@@ -1,0 +1,5 @@
+test/**
+TASK.md
+*.vsix
+.vscode/**
+preview/**

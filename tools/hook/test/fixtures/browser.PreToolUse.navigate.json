@@ -1,0 +1,12 @@
+{
+  "session_id": "session-0001",
+  "transcript_path": "C:/work/transcript_path.jsonl",
+  "cwd": "C:/work",
+  "permission_mode": "auto",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "mcp__claude-in-chrome__navigate",
+  "tool_input": {
+    "url": "https://example.com"
+  },
+  "tool_use_id": "toolu-9001"
+}

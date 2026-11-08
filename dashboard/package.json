@@ -1,0 +1,82 @@
+{
+    "name":  "council-dashboard",
+    "displayName":  "Council",
+    "publisher":  "kevkaseeker",
+    "version":  "0.1.0",
+    "engines":  {
+                    "vscode":  "^1.90.0"
+                },
+    "main":  "./extension.js",
+    "license":  "UNLICENSED",
+    "private":  true,
+    "activationEvents":  [
+                             "onStartupFinished"
+                         ],
+    "contributes":  {
+                        "viewsContainers":  {
+                                                "activitybar":  [
+                                                                    {
+                                                                        "id":  "council",
+                                                                        "title":  "Council",
+                                                                        "icon":  "media/icons/council.svg"
+                                                                    }
+                                                                ]
+                                            },
+                        "views":  {
+                                      "council":  [
+                                                      {
+                                                          "type":  "webview",
+                                                          "id":  "council.dashboard",
+                                                          "name":  "Council"
+                                                      }
+                                                  ]
+                                  },
+                        "commands":  [
+                                         {
+                                             "command":  "council.open",
+                                             "title":  "Council: Ã–ffnen"
+                                         },
+                                         {
+                                             "command":  "council.openAbove",
+                                             "title":  "Council: Ãœber dem Chat Ã¶ffnen"
+                                         },
+                                         {
+                                             "command":  "council.openWindow",
+                                             "title":  "Council: Als eigenes Fenster Ã¶ffnen"
+                                         },
+                                         {
+                                             "command":  "council.openRight",
+                                             "title":  "Council: Rechts neben dem Chat öffnen"
+                                         }
+                                     ],
+                        "keybindings":  [
+                                            {
+                                                "command":  "council.openRight",
+                                                "key":  "ctrl+alt+c"
+                                            }
+                                        ],
+                        "configuration":  {
+                                              "title":  "Council",
+                                              "properties":  {
+                                                                 "council.root":  {
+                                                                                      "type":  "string",
+                                                                                      "default":  "C:\\Users\\kevka\\council"
+                                                                                  },
+                                                                 "council.claudeProjects":  {
+                                                                                                "type":  "string",
+                                                                                                "default":  ""
+                                                                                            },
+                                                                 "council.favorites":  {
+                                                                                           "type":  "array",
+                                                                                           "items":  {
+                                                                                                         "type":  "string"
+                                                                                                     },
+                                                                                           "default":  [
+
+                                                                                                       ],
+                                                                                           "description":  "Start-Favoriten fÃ¼r â€žOrdner wechselnâ€¦â€œ (danach im Council mit â˜† Ã¤nderbar)."
+                                                                                       }
+                                                             }
+                                          }
+                    }
+}

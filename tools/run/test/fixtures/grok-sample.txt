@@ -1,0 +1,21 @@
+{"type":"available_commands","tools":["read_file","run_terminal_command"]}
+{"type":"thought","data":"Running `node -e console.log(1+1)`"}
+{"type":"thought","data":" and will reply with"}
+{"type":"thought","data":" its output in one line."}
+{"type":"text","data":"I'll"}
+{"type":"text","data":" run"}
+{"type":"text","data":" that"}
+{"type":"text","data":" Node"}
+{"type":"text","data":" command"}
+{"type":"text","data":" and"}
+{"type":"text","data":" reply"}
+{"type":"text","data":" with"}
+{"type":"text","data":" its"}
+{"type":"text","data":" output"}
+{"type":"text","data":" only"}
+{"type":"text","data":"."}
+{"type":"usage","usage":{"input_tokens":20145,"output_tokens":243,"cache_read_input_tokens":0,"cache_creation_input_tokens":0,"reasoning_tokens":197},"signature":"sig"}
+{"type":"tool_call","toolCallId":"id-0001","title":"run_terminal_command","kind":"execute","status":"pending","toolName":"run_terminal_command","rawInput":{"command":"node -e \"console.log(1+1)\"","description":"Run node to print 1+1"},"content":[],"locations":[]}
+{"type":"tool_call_update","toolCallId":"id-0001","status":null,"content":[{"type":"content","content":{"type":"text","text":"Run node to print 1+1"}}],"rawOutput":null,"locations":[]}
+{"type":"tool_call_update","toolCallId":"id-0001","status":"failed","content":[{"type":"content","content":{"type":"text","text":"User cancelled the execution for tool `run_terminal_command`"}}],"rawOutput":null,"locations":[]}
+{"type":"end","stopReason":"cancelled","sessionId":"id-0001","requestId":"id-0001","cwd":"C:/work","usage":{"input_tokens":20145,"cache_read_input_tokens":0,"cache_creation_input_tokens":0,"output_tokens":243,"reasoning_tokens":197,"total_tokens":20388},"num_turns":1,"total_cost_usd":0.083496,"total_cost_usd_ticks":834960000,"modelUsage":{"grok-4.7-build-fast":{"inputTokens":20145,"outputTokens":243,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"modelCalls":1,"costUSD":0.083496}}}

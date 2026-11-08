@@ -1,0 +1,14 @@
+[
+  {
+    "type": "result",
+    "text": "I?ll create `hello.txt` in the workspace, then run the requested Node command."
+  },
+  {
+    "type": "step",
+    "text": "führt aus: \"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Set-Content -LiteralPath hello.txt -Value hello -NoNewline; node -e \"console.log(1+1)\"'"
+  },
+  {
+    "type": "result",
+    "text": "2"
+  }
+]

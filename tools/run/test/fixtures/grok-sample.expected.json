@@ -1,0 +1,70 @@
+[
+  {
+    "type": "thinking",
+    "text": "Running `node -e console.log(1+1)`"
+  },
+  {
+    "type": "thinking",
+    "text": " and will reply with"
+  },
+  {
+    "type": "thinking",
+    "text": " its output in one line."
+  },
+  {
+    "type": "result",
+    "text": "I'll"
+  },
+  {
+    "type": "result",
+    "text": " run"
+  },
+  {
+    "type": "result",
+    "text": " that"
+  },
+  {
+    "type": "result",
+    "text": " Node"
+  },
+  {
+    "type": "result",
+    "text": " command"
+  },
+  {
+    "type": "result",
+    "text": " and"
+  },
+  {
+    "type": "result",
+    "text": " reply"
+  },
+  {
+    "type": "result",
+    "text": " with"
+  },
+  {
+    "type": "result",
+    "text": " its"
+  },
+  {
+    "type": "result",
+    "text": " output"
+  },
+  {
+    "type": "result",
+    "text": " only"
+  },
+  {
+    "type": "result",
+    "text": "."
+  },
+  {
+    "type": "step",
+    "text": "führt aus: node -e \"console.log(1+1)\""
+  },
+  {
+    "type": "error",
+    "text": "User cancelled the execution for tool `run_terminal_command`"
+  }
+]

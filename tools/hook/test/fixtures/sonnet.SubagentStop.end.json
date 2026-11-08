@@ -1,0 +1,18 @@
+{
+  "session_id": "session-0001",
+  "transcript_path": "C:/work/transcript_path.jsonl",
+  "cwd": "C:/work",
+  "scratchpad_dir": "C:/work/tmp",
+  "prompt_id": "prompt-0001",
+  "permission_mode": "auto",
+  "agent_id": "agent-0006",
+  "agent_type": "general-purpose",
+  "effort": {
+    "level": "medium"
+  },
+  "hook_event_name": "SubagentStop",
+  "stop_hook_active": false,
+  "agent_transcript_path": "C:/work/agent_transcript_path.jsonl",
+  "background_tasks": [],
+  "session_crons": []
+}

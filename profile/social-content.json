@@ -1,0 +1,1 @@
+{ "id": "social-content", "label": "Social-Content", "rollen": { "texte-entwerfen": "grok-4.7", "bild-prompts": "grok-4.7", "bilder-erzeugen": "grok-image", "browser-arbeit": "haiku", "recherche": "grok-4.7-build-fast", "pruefen": "opus" } }

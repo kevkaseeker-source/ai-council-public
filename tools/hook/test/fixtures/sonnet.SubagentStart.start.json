@@ -1,0 +1,10 @@
+{
+  "session_id": "session-0001",
+  "transcript_path": "C:/work/transcript_path.jsonl",
+  "cwd": "C:/work",
+  "scratchpad_dir": "C:/work/tmp",
+  "prompt_id": "prompt-0001",
+  "agent_id": "agent-0006",
+  "agent_type": "general-purpose",
+  "hook_event_name": "SubagentStart"
+}

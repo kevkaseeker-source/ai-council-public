@@ -1,0 +1,22 @@
+{"ts":"2026-10-20T07:00:00.000Z","agent":"haiku","run":"agent-old","type":"start","text":"Unteragent startet","detail":null,"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T07:00:10.000Z","agent":"haiku","run":"agent-old","type":"step","text":"sucht x","detail":{"tool":"Grep","target":"x"},"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T07:01:00.000Z","agent":"haiku","run":"agent-old","type":"end","text":"fertig","detail":null,"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T09:00:00.000Z","agent":"opus","run":"s2","type":"start","text":"Sitzung startet","detail":null,"tokens":null,"session":"s2","parent":null}
+{"ts":"2026-10-20T09:01:00.000Z","agent":"opus","run":"s2","type":"step","text":"liest C:/work/b.txt","detail":{"tool":"Read","target":"C:/work/b.txt"},"tokens":null,"session":"s2","parent":null}
+{"ts":"2026-10-20T10:00:00.000Z","agent":"opus","run":"s1","type":"start","text":"Sitzung startet","detail":null,"tokens":null,"session":"s1","parent":null}
+{"ts":"2026-10-20T10:05:00.000Z","agent":"opus","run":"s1","type":"step","text":"führt aus: node C:/x/tools/run/council-run.mjs codex C:/tmp/job/TASK.md","detail":{"tool":"PowerShell","target":"node C:/x/tools/run/council-run.mjs codex C:/tmp/job/TASK.md"},"tokens":null,"session":"s1","parent":null}
+{"ts":"2026-10-20T10:05:03.000Z","agent":"codex","run":"r-111111","type":"start","text":"startet: Write tests","detail":null,"tokens":null,"session":null,"parent":"opus"}
+{"ts":"2026-10-20T10:05:30.000Z","agent":"codex","run":"r-111111","type":"end","text":"fertig (Exit 0)","detail":null,"tokens":{"in":1000,"out":50,"provider":"openai"},"session":null,"parent":"opus","durationMs":27000}
+{"ts":"2026-10-20T10:06:00.000Z","agent":"opus","run":"s1","type":"step","text":"delegiert an haiku: example","detail":{"tool":"Agent","target":"example"},"tokens":null,"session":"s1","parent":null}
+{"ts":"2026-10-20T10:06:01.000Z","agent":"haiku","run":"agent-a1","type":"start","text":"Unteragent startet","detail":null,"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:06:05.000Z","agent":"haiku","run":"agent-a1","type":"step","text":"sucht example","detail":{"tool":"Grep","target":"example"},"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:06:07.000Z","agent":"haiku","run":"agent-a1","type":"step","text":"liest C:/work/a.txt","detail":{"tool":"Read","target":"C:/work/a.txt"},"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:06:09.000Z","agent":"haiku","run":"agent-a1","type":"step","text":"liest C:/work/c.txt","detail":{"tool":"Read","target":"C:/work/c.txt"},"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:07:00.000Z","agent":"sonnet","run":"agent-b1","type":"start","text":"Unteragent startet","detail":null,"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:07:05.000Z","agent":"sonnet","run":"agent-b1","type":"step","text":"schreibt C:/work/d.txt","detail":{"tool":"Write","target":"C:/work/d.txt"},"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:07:06.000Z","agent":"sonnet","run":"agent-b1","type":"step","text":"schreibt C:/work/d.txt","detail":{"tool":"Edit","target":"C:/work/d.txt"},"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:07:07.000Z","agent":"sonnet","run":"agent-b1","type":"step","text":"führt aus: echo ok","detail":{"tool":"PowerShell","target":"echo ok"},"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:08:00.000Z","agent":"sonnet","run":"agent-b1","type":"end","text":"fertig","detail":null,"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:09:00.000Z","agent":"grok-4.7","run":"r-222222","type":"start","text":"startet: Review","detail":null,"tokens":null,"session":null,"parent":"opus"}
+{"ts":"2026-10-20T10:09:20.000Z","agent":"browser","run":"agent-c1","type":"start","text":"Unteragent startet","detail":null,"tokens":null,"session":"s1","parent":"opus"}
+{"ts":"2026-10-20T10:09:30.000Z","agent":"browser","run":"agent-c1","type":"step","text":"Browser: navigate","detail":{"tool":"mcp__claude-in-chrome__navigate","target":"https://example.com"},"tokens":null,"session":"s1","parent":"opus"}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<!-- wie die Webview: keine Inline-Styles (style-Attribute, <style>) -->
+<meta http-equiv="Content-Security-Policy" content="style-src 'self' file:; img-src 'self' file: data:">
+<title>Council Vorschau</title>
+<!-- Preview harness: loads the real webview files with a fake VS Code API and a synthetic state. -->
+<link rel="stylesheet" href="theme-dark.css">
+<link rel="stylesheet" href="../media/app.css">
+</head>
+<body data-media="../media">
+<div id="app"></div>
+<script>
+  window.acquireVsCodeApi = () => ({ postMessage() {}, getState() { return window.__uiState || null; }, setState() {} });
+</script>
+<script src="../media/logos.js"></script>
+<script type="module" src="../media/three-loader.js"></script>
+<script src="../media/graph.js"></script>
+<script src="../media/history.js"></script>
+<script src="../media/app.js"></script>
+<script src="state.js"></script>
+<script>
+  setTimeout(() => window.postMessage(window.__state, '*'), 50);
+</script>
+</body>
+</html>

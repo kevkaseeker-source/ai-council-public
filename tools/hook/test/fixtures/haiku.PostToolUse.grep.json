@@ -1,0 +1,25 @@
+{
+  "session_id": "session-0001",
+  "transcript_path": "C:/work/transcript_path.jsonl",
+  "cwd": "C:/work",
+  "scratchpad_dir": "C:/work/tmp",
+  "prompt_id": "prompt-0001",
+  "permission_mode": "auto",
+  "agent_id": "agent-0005",
+  "agent_type": "general-purpose",
+  "effort": {
+    "level": "medium"
+  },
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Grep",
+  "tool_input": {
+    "path": "C:/work",
+    "pattern": "example",
+    "output_mode": "count"
+  },
+  "tool_response": {
+    "note": "removed"
+  },
+  "tool_use_id": "toolu-0007",
+  "duration_ms": 87
+}

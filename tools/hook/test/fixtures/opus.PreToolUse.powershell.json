@@ -1,0 +1,18 @@
+{
+  "session_id": "session-0001",
+  "transcript_path": "C:/work/transcript_path.jsonl",
+  "cwd": "C:/work",
+  "scratchpad_dir": "C:/work/tmp",
+  "prompt_id": "prompt-0001",
+  "permission_mode": "auto",
+  "effort": {
+    "level": "medium"
+  },
+  "hook_event_name": "PreToolUse",
+  "tool_name": "PowerShell",
+  "tool_input": {
+    "command": "echo example",
+    "description": "example task"
+  },
+  "tool_use_id": "toolu-0001"
+}

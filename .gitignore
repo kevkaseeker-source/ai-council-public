@@ -1,0 +1,14 @@
+node_modules/
+*.mp4
+*.wav
+*.mp3
+.env
+.env.*
+.superpowers/
+logs/
+notes/
+dashboard/*.vsix
+dashboard/preview/state.js
+/bereiche/
+/tische/
+/events/

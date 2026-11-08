@@ -1,0 +1,9 @@
+{"type":"user","timestamp":"2026-10-20T10:00:00.000Z","cwd":"G:/Drive/staex all 2026","message":{"role":"user","content":"Hallo, bitte hilf mir beim Video"}}
+{"type":"assistant","timestamp":"2026-10-20T10:00:05.000Z","message":{"role":"assistant","content":[{"type":"thinking","thinking":"secret thoughts"},{"type":"text","text":"Gern, ich schaue mir das an."},{"type":"tool_use","name":"Read","input":{}}]}}
+{"type":"user","timestamp":"2026-10-20T10:00:06.000Z","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"t1","content":"file body"}]}}
+{"type":"assistant","timestamp":"2026-10-20T10:00:10.000Z","isSidechain":true,"message":{"role":"assistant","content":[{"type":"text","text":"sub-agent text"}]}}
+not json
+{"type":"user","timestamp":"2026-10-20T10:01:00.000Z","message":{"role":"user","content":[{"type":"text","text":"<system-reminder>internal</system-reminder>"},{"type":"text","text":"Mach weiter"}]}}
+{"type":"user","timestamp":"2026-10-20T10:01:01.000Z","isMeta":true,"message":{"role":"user","content":"meta note"}}
+{"type":"assistant","timestamp":"2026-10-20T10:02:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Erledigt."}]}}
+{"type":"ai-title","aiTitle":"Video","sessionId":"s1"}

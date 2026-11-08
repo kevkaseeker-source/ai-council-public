@@ -1,0 +1,10 @@
+{"ts":"2026-10-20T10:00:00.000Z","agent":"opus","run":"session-0001","type":"start","text":"Sitzung startet","detail":null,"tokens":null,"session":"session-0001","parent":null}
+{"ts":"2026-10-20T10:00:05.000Z","agent":"opus","run":"session-0001","type":"step","text":"liest C:/work/a.txt","detail":{"tool":"Read","target":"C:/work/a.txt"},"tokens":null,"session":"session-0001","parent":null}
+{"ts":"2026-10-20T10:01:00.000Z","agent":"codex","run":"r-aaaaaa","type":"start","text":"startet: Write tests","detail":null,"tokens":null,"session":null,"parent":"opus"}
+{"ts":"2026-10-20T10:01:10.000Z","agent":"codex","run":"r-aaaaaa","type":"step","text":"führt aus: node --check x.mjs","detail":null,"tokens":null,"session":null,"parent":"opus"}
+this is not json
+{"ts":"2026-10-20T10:01:40.000Z","agent":"codex","run":"r-aaaaaa","type":"end","text":"fertig (Exit 0)","detail":null,"tokens":{"in":1000,"out":50,"provider":"openai"},"session":null,"parent":"opus","durationMs":40000}
+{"ts":"2026-10-20T10:02:00.000Z","agent":"haiku","run":"agent-0001","type":"start","text":"Unteragent startet","detail":null,"tokens":null,"session":"session-0001","parent":"opus"}
+{"ts":"2026-10-20T10:02:03.000Z","agent":"haiku","run":"agent-0001","type":"step","text":"sucht example","detail":{"tool":"Grep","target":"example"},"tokens":null,"session":"session-0001","parent":"opus"}
+{"ts":"2026-10-20T10:03:00.000Z","agent":"grok-4.7","run":"r-bbbbbb","type":"error","text":"User cancelled","detail":null,"tokens":null,"session":null,"parent":"opus"}
+{"agent":"opus","type":"step"}
